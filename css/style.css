@@ -429,3 +429,45 @@ background:#00b4d8;
     transition:.3s;
 
 }
+
+.question-box.fade-out{
+
+    opacity:0;
+
+    transform:
+    translateX(-50px);
+
+}
+
+
+.question-box.fade-in{
+
+    animation:
+    questionEnter .5s ease;
+
+}
+
+
+
+@keyframes questionEnter{
+
+from{
+
+opacity:0;
+
+transform:
+translateX(50px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:
+translateX(0);
+
+}
+
+}
