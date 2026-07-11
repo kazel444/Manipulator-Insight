@@ -383,3 +383,49 @@ transform:translateX(8px);
 background:#00b4d8;
 
 }
+
+/* =========================
+   LOADING BAR
+========================= */
+
+
+.loading-bar {
+
+    width:300px;
+
+    height:15px;
+
+    margin-top:30px;
+
+    background:
+    rgba(255,255,255,.1);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+#loading-progress {
+
+    height:100%;
+
+    width:0%;
+
+    background:
+
+    linear-gradient(
+    90deg,
+    cyan,
+    blue
+    );
+
+
+    box-shadow:
+
+    0 0 20px cyan;
+
+
+    transition:.3s;
+
+}
