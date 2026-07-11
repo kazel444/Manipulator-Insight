@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Manipulator Insight</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- MATRIX BACKGROUND -->
+
+<canvas id="matrix"></canvas>
+
+<!-- DARK OVERLAY -->
+
+<div class="overlay"></div>
+
+<!-- MAIN CARD -->
+
+<div class="container">
+
+<h1>
+
+🎭
+
+<br>
+
+MANIPULATOR INSIGHT
+
+</h1>
+
+<p class="subtitle">
+
+Behavioral Analysis System
+
+</p>
+
+<div class="card">
+
+<label>
+
+Nama Orang Yang Dinilai
+
+</label>
+
+<input
+
+type="text"
+
+id="nama"
+
+placeholder="Masukkan Nama">
+
+<label>
+
+Umur (Opsional)
+
+</label>
+
+<input
+
+type="number"
+
+id="umur"
+
+placeholder="Contoh : 20">
+
+<label>
+
+Jenis Kelamin
+
+</label>
+
+<select id="gender">
+
+<option>Laki-laki</option>
+
+<option>Perempuan</option>
+
+<option>Tidak ingin menjawab</option>
+
+</select>
+
+<button onclick="mulaiTes()">
+
+▶ MULAI ANALISIS
+
+</button>
+
+</div>
+
+<div class="music">
+
+<button id="musicBtn">
+
+🔊 Music
+
+</button>
+
+</div>
+
+<p class="warning">
+
+Hasil hanya berupa indikator pola perilaku,
+
+bukan diagnosis psikologis.
+
+</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
